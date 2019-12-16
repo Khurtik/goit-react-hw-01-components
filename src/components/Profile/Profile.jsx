@@ -28,10 +28,6 @@ const Profile = ({ user }) => (
   </div>
 );
 
-// Profile.defaultProps = {
-//   alt: 'user avatar',
-// };
-
 Profile.propTypes = {
   user: PropTypes.shape({
     avatar: PropTypes.string,

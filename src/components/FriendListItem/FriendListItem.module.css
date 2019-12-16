@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.statusOnline::before {
+  content: ' \25CF';
+  color: green;
+  font-size: 50px;
+}
+
+.statusOffline::before {
+  content: ' \25CF';
+  color: red;
+  font-size: 50px;
+}
+
+.avatar {
+  border-radius: 5px;
+  margin: 0 15px 0 10px;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+}
